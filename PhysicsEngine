@@ -1,0 +1,44 @@
+Class Matter{
+
+
+    Class Engine{
+
+        properties
+        world;
+        functions
+        create();
+        display();
+
+
+    }
+
+    Class World{
+
+        properties
+        world = engine.world
+        functions
+        create()
+        add()
+
+    }
+
+    Class Bodies{
+
+        properties
+
+        functions
+        rectangle();
+        circle();
+        setposition()
+
+    }
+
+
+
+
+
+
+
+
+
+}
